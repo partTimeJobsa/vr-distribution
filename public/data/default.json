@@ -1,0 +1,543 @@
+{
+    "default": {
+        "firstScene": "room_1_1",
+        "sceneFadeDuration": 2000,
+        "duration": 1000,
+        "hfov": 200,
+        "autoLoad": true,
+        "showFullscreenCtrl": false,
+        "showControls": false
+    },
+    "scenes": {
+        "room_1_1": {
+            "title": "配电房1",
+            "panorama": "./room/1/1_1.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -15,
+                    "yaw": 151,
+                    "text": "前进",
+                    "type": "scene",
+                    "sceneId": "room_1_2"
+                },
+                {
+                    "pitch": -15,
+                    "yaw": 331,
+                    "text": "后退",
+                    "hidden": true,
+                    "type": "scene",
+                    "sceneId": "room_1_2"
+                }
+            ],
+            "spots": [
+                {
+                    "id": "1",
+                    "title": "1#配电柜",
+                    "pitch": 1,
+                    "yaw": 123,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "2",
+                    "title": "2#配电柜",
+                    "pitch": 0,
+                    "yaw": 190,
+                    "type": "warn",
+                    "components": "Detail02"
+                },
+                {
+                    "id": "3",
+                    "title": "摄像头",
+                    "pitch": 40,
+                    "yaw": 336,
+                    "type": "warn",
+                    "direction": "down",
+                    "components": "Detail03"
+                }
+            ]
+        },
+        "room_1_2": {
+            "title": "配电房1",
+            "panorama": "./room/1/1_2.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": 295,
+                    "text": "前进",
+                    "type": "scene",
+                    "sceneId": "room_1_3"
+                },
+                {
+                    "pitch": -25,
+                    "yaw": 115,
+                    "text": "后退",
+                    "type": "scene",
+                    "sceneId": "room_1_7"
+                }
+            ],
+            "spots": [
+                {
+                    "id": "1",
+                    "title": "1#配电柜",
+                    "pitch": 5,
+                    "yaw": 186,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "2",
+                    "title": "2#配电柜",
+                    "pitch": 5,
+                    "yaw": 230,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "3",
+                    "title": "3#配电柜",
+                    "pitch": 19,
+                    "yaw": 264,
+                    "type": "warn",
+                    "components": "Detail02"
+                },
+                {
+                    "id": "4",
+                    "title": "4#配电柜",
+                    "pitch": 5,
+                    "yaw": -22,
+                    "type": "info",
+                    "components": "Detail02"
+                },
+                {
+                    "id": "5",
+                    "title": "5#配电柜",
+                    "pitch": 7,
+                    "yaw": 10.5,
+                    "type": "info",
+                    "components": "Detail02"
+                },
+                {
+                    "id": "6",
+                    "title": "6#配电柜",
+                    "pitch": 7,
+                    "yaw": 54,
+                    "type": "info",
+                    "components": "Detail02"
+                }
+            ]
+        },
+        "room_1_3": {
+            "title": "配电房",
+            "panorama": "./room/1/1_3.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": 170,
+                    "text": "前进",
+                    "type": "scene",
+                    "sceneId": "room_1_4"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 350,
+                    "text": "后退",
+                    "type": "scene",
+                    "sceneId": "room_1_6"
+                }
+            ],
+            "spots": [
+                {
+                    "id": "1",
+                    "title": "1#配电柜",
+                    "pitch": 5,
+                    "yaw": 35,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "2",
+                    "title": "2#配电柜",
+                    "pitch": 5,
+                    "yaw": 93,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "3",
+                    "title": "3#配电柜",
+                    "pitch": 0,
+                    "yaw": 125,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "4",
+                    "title": "4#配电柜",
+                    "pitch": 10,
+                    "yaw": 254,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "5",
+                    "title": "5#配电柜",
+                    "pitch": 8,
+                    "yaw": 292,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "6",
+                    "title": "6#配电柜",
+                    "pitch": 5.5,
+                    "yaw": 312.5,
+                    "type": "info",
+                    "components": "Detail01"
+                }
+            ]
+        },
+        "room_1_4": {
+            "title": "配电房1",
+            "panorama": "./room/1/1_4.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": 85,
+                    "text": "前进",
+                    "hidden": true,
+                    "type": "scene"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 275,
+                    "text": "后退",
+                    "type": "scene",
+                    "sceneId": "room_1_5"
+                }
+            ],
+            "spots": [
+                {
+                    "id": "1",
+                    "title": "1#配电柜",
+                    "pitch": 0,
+                    "yaw": -20,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "2",
+                    "title": "2#配电柜",
+                    "pitch": 5,
+                    "yaw": 38,
+                    "type": "warn",
+                    "components": "Detail02"
+                },
+                {
+                    "id": "3",
+                    "title": "3#配电柜",
+                    "pitch": 0,
+                    "yaw": 87,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "4",
+                    "title": "珠海配电线路面板",
+                    "pitch": 10,
+                    "yaw": 170,
+                    "type": "info",
+                    "components": "detail04"
+                }
+            ]
+        },
+        "room_1_5": {
+            "title": "配电房1",
+            "panorama": "./room/1/1_3.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": 350,
+                    "text": "前进",
+                    "type": "scene",
+                    "sceneId": "room_1_6"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 170,
+                    "text": "后退",
+                    "type": "scene",
+                    "sceneId": "room_1_4"
+                }
+            ],
+            "spots": [
+                {
+                    "id": "1",
+                    "title": "1#配电柜",
+                    "pitch": 5,
+                    "yaw": 35,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "2",
+                    "title": "2#配电柜",
+                    "pitch": 5,
+                    "yaw": 93,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "3",
+                    "title": "3#配电柜",
+                    "pitch": 0,
+                    "yaw": 125,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "4",
+                    "title": "4#配电柜",
+                    "pitch": 10,
+                    "yaw": 254,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "5",
+                    "title": "5#配电柜",
+                    "pitch": 8,
+                    "yaw": 292,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "6",
+                    "title": "6#配电柜",
+                    "pitch": 5.5,
+                    "yaw": 312.5,
+                    "type": "info",
+                    "components": "Detail01"
+                }
+            ]
+        },
+        "room_1_6": {
+            "title": "配电房1",
+            "panorama": "./room/1/1_2.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": 115,
+                    "text": "前进",
+                    "type": "scene",
+                    "sceneId": "room_1_7"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 295,
+                    "text": "后退",
+                    "type": "scene",
+                    "sceneId": "room_1_3"
+                }
+            ],
+            "spots": [
+                {
+                    "id": "1",
+                    "title": "1#配电柜",
+                    "pitch": 5,
+                    "yaw": 186,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "2",
+                    "title": "2#配电柜",
+                    "pitch": 5,
+                    "yaw": 230,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "3",
+                    "title": "3#配电柜",
+                    "pitch": 19,
+                    "yaw": 264,
+                    "type": "warn",
+                    "components": "Detail02"
+                },
+                {
+                    "id": "4",
+                    "title": "4#配电柜",
+                    "pitch": 5,
+                    "yaw": -22,
+                    "type": "info",
+                    "components": "Detail02"
+                },
+                {
+                    "id": "5",
+                    "title": "5#配电柜",
+                    "pitch": 7,
+                    "yaw": 10.5,
+                    "type": "info",
+                    "components": "Detail02"
+                },
+                {
+                    "id": "6",
+                    "title": "6#配电柜",
+                    "pitch": 7,
+                    "yaw": 54,
+                    "type": "info",
+                    "components": "Detail02"
+                }
+            ]
+        },
+        "room_1_7": {
+            "title": "配电房1",
+            "panorama": "./room/1/1_1.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -15,
+                    "yaw": 331,
+                    "text": "后退",
+                    "hidden": true,
+                    "type": "scene",
+                    "sceneId": "room_1_2"
+                },
+                {
+                    "pitch": -15,
+                    "yaw": 151,
+                    "text": "前进",
+                    "type": "scene",
+                    "sceneId": "room_1_2"
+                }
+            ],
+            "spots": [
+                {
+                    "id": "1",
+                    "title": "1#配电柜",
+                    "pitch": 1,
+                    "yaw": 123,
+                    "type": "info",
+                    "components": "Detail01"
+                },
+                {
+                    "id": "2",
+                    "title": "2#配电柜",
+                    "pitch": 0,
+                    "yaw": 190,
+                    "type": "warn",
+                    "components": "Detail02"
+                },
+                {
+                    "id": "3",
+                    "title": "摄像头",
+                    "pitch": 40,
+                    "yaw": 336,
+                    "type": "warn",
+                    "direction": "down",
+                    "components": "Detail03"
+                }
+            ]
+        }
+    },
+    "mapData": [
+        {
+            "sceneId": "room_1_1",
+            "map": {
+                "left": 327,
+                "top": 190
+            }
+        },
+        {
+            "sceneId": "room_1_2",
+            "map": {
+                "left": 215,
+                "top": 190
+            }
+        },
+        {
+            "sceneId": "room_1_3",
+            "map": {
+                "left": 125,
+                "top": 190
+            }
+        },
+        {
+            "sceneId": "room_1_4",
+            "map": {
+                "left": 63,
+                "top": 120,
+                "rotate": 90
+            }
+        },
+        {
+            "sceneId": "room_1_5",
+            "map": {
+                "left": 128,
+                "top": 109,
+                "rotate": 180
+            }
+        },
+        {
+            "sceneId": "room_1_6",
+            "map": {
+                "left": 218,
+                "top": 109,
+                "rotate": 180
+            }
+        },
+        {
+            "sceneId": "room_1_7",
+            "map": {
+                "left": 277,
+                "top": 138,
+                "rotate": 270
+            }
+        }
+    ],
+    "inspectionPath": [
+        {
+            "sceneId": "room_1_1",
+            "rotate": -45,
+            "yaw": 151
+        },
+        {
+            "sceneId": "room_1_2",
+            "rotate": -60,
+            "yaw": 295
+        },
+        {
+            "sceneId": "room_1_3",
+            "rotate": -90,
+            "yaw": 170
+        },
+        {
+            "sceneId": "room_1_4",
+            "rotate": [
+                -90,
+                0,
+                90
+            ],
+            "yaw": 85,
+            "yaw2": 270
+        },
+        {
+            "sceneId": "room_1_5",
+            "rotate": -90,
+            "yaw": 350
+        },
+        {
+            "sceneId": "room_1_6",
+            "rotate": -90,
+            "yaw": 115
+        },
+        {
+            "sceneId": "room_1_7",
+            "focusId": [
+                "3"
+            ],
+            "rotate": -100,
+            "yaw": 331
+        }
+    ]
+}
